@@ -1,0 +1,103 @@
+@use "variables" as *;
+
+.hero,
+.page-hero,
+.project-hero {
+  padding: 88px 0 72px;
+}
+
+.hero h1,
+.page-hero h1,
+.project-hero h1 {
+  color: $color-charcoal;
+  font-size: clamp(40px, 7vw, 76px);
+  line-height: 1.08;
+}
+
+.work-grid,
+.focus-grid,
+.skill-grid,
+.project-layout {
+  display: grid;
+  gap: 20px;
+}
+
+.focus-grid article,
+.skill-preview div {
+  min-width: 0;
+}
+
+.focus-grid p,
+.skill-preview p {
+  overflow-wrap: anywhere;
+}
+
+.skills-overview {
+  .split {
+    grid-template-columns: minmax(320px, 0.9fr) minmax(480px, 1.1fr);
+    align-items: center;
+
+    > * {
+      min-width: 0;
+    }
+  }
+
+  .skill-preview {
+    width: 100%;
+    max-width: 100%;
+    grid-template-columns: repeat(2, minmax(220px, 1fr));
+    align-items: stretch;
+    gap: 20px;
+
+    div {
+      display: grid;
+      align-content: start;
+      gap: 10px;
+      min-height: 150px;
+      padding: 24px;
+    }
+
+    h3 {
+      font-size: 19px;
+    }
+
+    p {
+      margin-top: 0;
+      line-height: 1.7;
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .skills-overview {
+    .split {
+      grid-template-columns: 1fr;
+      align-items: start;
+    }
+
+    .skill-preview {
+      grid-template-columns: repeat(2, minmax(220px, 1fr));
+    }
+  }
+}
+
+@media (max-width: 640px) {
+  .hero,
+  .page-hero,
+  .project-hero,
+  .section {
+    padding: 56px 0;
+  }
+
+  .skills-overview {
+    .skill-preview {
+      grid-template-columns: 1fr;
+      gap: 16px;
+
+      div {
+        min-height: 0;
+        padding: 20px;
+      }
+    }
+  }
+}
