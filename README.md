@@ -44,7 +44,7 @@ https://takafumi888.github.io/Portfolio/
 - 種別：Shopifyスクール課題
 - Demo URL：https://dailyadvance-designcomp.myshopify.com/
 - Password：`portfolio`
-- 担当範囲：テーマカスタマイズ、商品登録、コレクション設計、基本ページ構成、レスポンシブ確認
+- 取り組んだこと：テーマカスタマイズ、商品登録、コレクション設計、基本ページ構成、レスポンシブ確認
 - アピール：商品設計、清潔感のあるブランド表現、基本的なテーマカスタマイズ
 
 ### Eanbeデモサイト
@@ -52,7 +52,7 @@ https://takafumi888.github.io/Portfolio/
 - 種別：Shopifyスクール課題
 - Demo URL：https://tredify-demostore.myshopify.com/
 - Password：`Eanbe`
-- 担当範囲：テーマカスタマイズ、商品導線設計、コレクション設計、ビジュアル調整、レスポンシブ確認
+- 取り組んだこと：テーマカスタマイズ、商品導線設計、コレクション設計、ビジュアル調整、レスポンシブ確認
 - アピール：ブランド世界観、コレクション設計、商品導線、ビジュアル設計
 
 ### sereine
@@ -61,7 +61,7 @@ https://takafumi888.github.io/Portfolio/
 - Demo URL：https://fleur-sereine-graduate.myshopify.com/
 - Password：`sereine`
 - 使用テーマ：Shopify公式テーマ Rise
-- 担当範囲：Riseテーマカスタマイズ、商品設計、コレクション設計、メタフィールド設計、Journal作成、FAQ作成、商品CSV作成、実装レポート作成、レスポンシブ確認
+- 取り組んだこと：Riseテーマカスタマイズ、商品設計、コレクション設計、メタフィールド設計、Journal作成、FAQ作成、商品CSV作成、実装レポート作成、レスポンシブ確認
 - アピール：実務に近い制作フロー、ストア設計、運用理解、ドキュメント化
 
 ## Skills
